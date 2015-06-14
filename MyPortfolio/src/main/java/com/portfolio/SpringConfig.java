@@ -53,5 +53,7 @@ public class SpringConfig extends WebMvcConfigurerAdapter{
 		registry.addResourceHandler("/pdfs/**").addResourceLocations("/WEB-INF/pdf/");
 		registry.addResourceHandler("/css/**").addResourceLocations("WEB-INF/css/");
 	}
+	
+	//Some comments to test github
 
 }
